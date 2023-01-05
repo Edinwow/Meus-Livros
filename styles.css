@@ -48,3 +48,13 @@ body {
 .book .author {
     margin-top: 5px;
 }
+
+@media (max-width: 800px) {
+    body {
+        width: 500px;
+        justify-content: center;
+    }
+    header {
+        font-size: 70px;
+    }
+  }
