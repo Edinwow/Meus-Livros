@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 750px;
+}
+
+header {
+    font-weight: bold;
+    font-size: 90px;
+}
+
+body {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+
+    background-color: #1f2227;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.book {
+    width: 120px;
+    margin: 15px;
+}
+
+.book .cover {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book .release {
+    font-size: small;
+    margin: 5px 0;
+}
+
+.book .title {
+    font-weight: bold;
+}
+
+.book .author {
+    margin-top: 5px;
+}
