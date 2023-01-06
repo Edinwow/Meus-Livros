@@ -77,7 +77,7 @@ main {
         justify-content: center;
     }
     header {
-        width: 100%;
         font-size: 60px;
+        width: 500px;
     }
   }
