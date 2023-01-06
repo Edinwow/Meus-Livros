@@ -29,3 +29,12 @@ function insertBook() {
     body.appendChild(div);
 
 }
+
+window.addEventListener('load', (event) => {
+    new cursoreffects.rainbowCursor({length: 8, colors: ['#efbbff', '#d896ff', '#be29ec'], size: 4});
+    // new cursoreffects.emojiCursor({emoji: ["📕", "📗", "📘", "📙"]});
+
+
+  });
+
+  
